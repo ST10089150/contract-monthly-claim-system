@@ -1,0 +1,11 @@
+cd <path-to-your-project>
+git init
+git add .
+git commit -m "Initialize project with basic structure and dependencies"
+git remote add origin https://github.com/ST10089150/contract-monthly-claim-system.git
+git branch -M main
+git push -u origin main
+git add <file1> <file2> ...  # Or use 'git add .' to add all changed files.
+git commit -m "Your descriptive commit message"
+git push
+
